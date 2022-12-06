@@ -108,7 +108,7 @@ public static class ConsoleBird
             return;
         }
         
-        _buffer[PlayerX, (int)PlayerY] = '@';
+        _buffer[PlayerX, (int)PlayerY] = '●';
     }
 
 
@@ -125,7 +125,7 @@ public static class ConsoleBird
             for (int i = 0; i < BoardSize; i++)
             {
                 if(i > o.Hole && i < o.Hole + HoleSize) continue;
-                _buffer[localX, i] = 'x';   
+                _buffer[localX, i] = '▊';   
             }
 
             // check collision
@@ -157,6 +157,8 @@ public static class ConsoleBird
 
             _tmpStrBuff += "\n";
         }
+
+        _tmpStrBuff += new string('▇', Console.WindowWidth);
         
         Console.SetCursorPosition(0, 0);
         Console.Write(_tmpStrBuff);
