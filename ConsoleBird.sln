@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBird", "ConsoleBird\ConsoleBird.csproj", "{29969773-8389-4DF1-844A-85D1045E47AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29969773-8389-4DF1-844A-85D1045E47AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29969773-8389-4DF1-844A-85D1045E47AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29969773-8389-4DF1-844A-85D1045E47AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29969773-8389-4DF1-844A-85D1045E47AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
